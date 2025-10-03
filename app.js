@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   res.send(`
     <h1>Weather App (WeatherAPI.com)</h1>
     <form method="POST" action="/weather">
-        <input type="text" name="city" placeholder="Enter city (e.g. Cebu City)" required />
+        <input type="text" name="city" placeholder="Enter city (e.g. Cebu)" required />
         <button type="submit">Get Weather</button>
     </form>
   `);
