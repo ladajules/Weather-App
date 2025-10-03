@@ -53,5 +53,5 @@ app.post("/weather", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://linux-12345678.dcism.org:${PORT}`);
+    console.log(`Server running on http://linux-24102582.dcism.org:${PORT}`);
 });
